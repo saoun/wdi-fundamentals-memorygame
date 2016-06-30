@@ -2,9 +2,13 @@
 	height: 50%;
 	width: 50%;
 	display: inline-block;
-	float: left;
-
 }
+
+div {
+	display: inline-block;
+  	margin:30px;
+    padding: 2%;
+    }
 
 .card {
 	height: 200px;
@@ -12,15 +16,18 @@
 	border: 1px solid black;
 	border-radius: 10px;
 	background: rgb(255, 255, 0);
-display: block;
+	float: left;
+	margin: 8%
 }
 
 h1 {
 	color: rgb(2, 132, 130);
+	text-align: center;
 }
 
 h2 {
 	color: #ffd700;
+	text-align: center;
 }
 
 body {
@@ -63,4 +70,5 @@ p {
 footer {
 	background: #808080;
 	text-align: center;
+	clear: both;
 }
